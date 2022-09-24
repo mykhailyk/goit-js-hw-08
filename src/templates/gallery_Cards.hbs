@@ -1,0 +1,11 @@
+{{#each this}}
+  <ul class='gallery__list'><li>
+      <a class='gallery__item' href='{{original}}'>
+        <img
+          class='gallery__image'
+          src='{{preview}}'
+          data-source='{{original}}'
+          alt='${description}'
+        />
+      </a></li></ul>
+{{/each}}
